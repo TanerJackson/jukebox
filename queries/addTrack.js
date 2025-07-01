@@ -1,4 +1,4 @@
-import db from "../client.js";
+import db from "../db/client.js";
 
 export async function addTrackToPlaylist(playlist_id, track_id) {
   const {
